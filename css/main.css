@@ -87,6 +87,73 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*Base styles*/
+* {
+  margin:0;
+  padding:0;
+}
+
+/* Navigation Bar */
+.openbtn {
+  cursor: pointer;
+  background-color:transparent;
+  padding: 5px 10px;
+  border: none;
+  margin-top: 7%;
+ 
+}
+
+/* .openbtn:hover {
+  background-color:var(--clr-mobile-header); 
+}
+
+.sidebar {
+height: 11.3rem;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color:var(--clr-mobile-text-bg);
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 15px;
+}
+
+.sidebar a {
+padding: .9rem;
+text-decoration: none;
+font-size: 1.125rem;
+color: var(--clr-mobile-para);
+display: block;
+transition: 0.3s;
+}
+
+.sidebar a:hover {
+color: var(--clr-mobile-header);
+}
+
+.sidebar .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -175,9 +242,16 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+  /* Nav Bar */
+  .closebtn,
+  .openbtn{
+    display:none;
+  }
 }
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
