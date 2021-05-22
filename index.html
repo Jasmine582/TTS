@@ -9,6 +9,61 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
+    <header>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button>  
+        </div> 
+    </header>
+    <main>
+        <section class="welcome">
+            <h3>Welcome!</h3>
+            <p>Here at Triangular Tech Solutions
+                we have the answer to all of your
+                tech needs. Click the link below to
+                book your free consultation now.</p>
+        </section>
+        <section class="services">
+            <h3>-Web Development-</h3>
+            <p>We will design + build your website to your specific needs.</p>
+            <p>Allow us to create a customized websites to help you grow your small business!
+            </p>
+            <div class="btn">
+                <a href="#">Click Here</a>
+            </div>
+        </section>
+        <section class="about">
+            <h3>-About Us-</h3>
+            <p>We are a team of three women in tech using our skills to
+                help small businesses flourish and grow</p>
+            <p>We’re here to help you. So stop struggling with Shopify, 
+                Squarespace, Wix, WordPress, etc... 
+                Our work will 
+                transform your brand and elevate your 
+                online presence.</p>
+        </section>
+        <section class="contact">
+            <h3>-Contact-</h3>
+            <img src="img/rectangle_19.png" alt="computer-photo"/>
+            <p class="email"><a href="mailto:triangulartechsolutions@gmail.com">triangulartechsolutions@gmail.com</a></p>
+            <div class="social-media">
+                <h3>Follow us on Social Media</h3>
+                <ul>
+                    <li><a href="#" target="_blank"><img src="img/facebook_icon.png" alt="facebook icon"/></a></li>
+                    <li><a href="#" target="_blank"><img src="img/instagram_icon.png" alt="instagram icon"/></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Triangular Tech Solutions</p>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
