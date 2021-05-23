@@ -105,9 +105,8 @@ img {
 header {
   background-color:#FFECBC;
 }
-.welcome{
+.welcome {
   background-color: #B3A072;
-
 }
 #services {
   background-color: #D9967E;
@@ -125,7 +124,7 @@ footer{
 
 /*===================Header Styles=======================*/
 .logo {
-  margin-left:18%;
+  margin-left:24%;
  
 }
 .banner {
@@ -173,8 +172,7 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
-  
-  .topnav a:not(:first-child) {
+ .topnav a:not(:first-child) {
     display: none;
   }
   .topnav a.icon {
@@ -232,16 +230,21 @@ footer{
 }
 
 /*===========WELCOME STYLES==========================*/
-.welcome {
+.welcome,
+#services h3,
+ p span,
+ #about h3,
+ #contact h3 {
   color:#FFFFFF;
-  background-color:#B3A072;
 }
-.welcome h3 {
+.welcome h3,
+#services h3 {
   font-size: 2rem;
   margin-bottom: 1rem;;
 }
 .welcome p {
   font-size: 1.3rem;
+  padding:.51em;
 }
 
 .mobile-welcome img {
@@ -250,6 +253,80 @@ footer{
   margin-top:1em;
   margin-bottom: 1em;
 }
+
+/*===========WEB DEV STYLES============================*/
+#services {
+  padding-bottom:2.3rem;
+}
+#services h3 {
+  font-size: 2rem;
+  padding-top:1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;;
+}
+@media(min-width:414px){#services h3,#about h3{margin-left: 2em;}}
+
+#services p span, 
+#services p{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+#services p {
+  padding:1em;
+}
+#services .button p {
+  width:232px;
+  background: rgba(207, 207, 207, 0.6);
+  margin-left: 2.3em;
+  padding-bottom: 1.4em;
+  
+}
+#services .button a {
+  color: #000000;
+  font-size:1.75em;
+  text-decoration: none;
+}
+/*===========ABOUT STYLES============================*/
+
+#about h3 {
+  font-size: 2rem;
+  padding-top:1rem;
+  margin-left: 6rem;
+  margin-bottom: 1rem;;
+}
+
+.mobile-about img {
+  width: 85%;
+  margin-left: 1.2em;
+}
+
+#about p span,
+#about p {
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.2em;
+  margin-top: 1.3em;
+  padding:.21em;
+}
+@media(min-width:414px){#about p{padding:.91em;}}
+/*===========CONTACT STYLES============================*/
+#contact h3 {
+  font-size: 2rem;
+  padding-top:1rem;
+  margin-left: 6rem;
+  margin-bottom: 1rem;;
+}
+/* #contact img {
+  width: 95%;
+  padding: 1rem;
+  border: 23px solid yellow;
+} */
+
+
 
 
 
