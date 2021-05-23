@@ -315,7 +315,7 @@ footer{
   font-size: 2rem;
   padding-top:1rem;
   margin-left: 6rem;
-  margin-bottom: 1rem;;
+  margin-bottom: 1rem;
 }
 /* #contact .rectangle {
   
@@ -418,7 +418,7 @@ footer{
 /* ------------------ Tablet Styles - Homepage ---------------- */
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */ 
-
+  
  /*===================Header Styles=======================*/
 .logo {
   display: flex;
@@ -445,6 +445,11 @@ justify-content: center;
 
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */  
+  /* hidden images */
+  .mobile-welcome img,
+  .mobile-about img {
+    display:none;
+  }
   .logo {
     display: flex;
     justify-content: flex-start;
