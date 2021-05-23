@@ -227,6 +227,12 @@ footer{
 }
 
 /*===========WELCOME STYLES==========================*/
+.welcome {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
 .welcome,
 #services,
 #contact,
@@ -452,7 +458,6 @@ footer{
 display: flex;
 justify-content: center;
 }
-  
 
 }
 
@@ -473,7 +478,7 @@ justify-content: center;
   .banner {
     display:flex;
     justify-content: flex-start;
-    margin-left: 7%;
+    margin-left: 8%;
     }
   
   /* Responsive Navigation Bar */
