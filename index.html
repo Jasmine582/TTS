@@ -10,16 +10,23 @@
 </head>
 <body>
     <header>
-        <div id="mySidebar" class="sidebar">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
+    <div class="wrapper">
+   
+        <div class="logo">
+            <img src="img/logo.png" alt="TTS_logo"/>
         </div>
-        <div id="main">
-            <button class="openbtn" onclick="openNav()">☰</button>  
-        </div> 
+        <div class="banner">
+            <img src="img/triangular_tech_solutions.png" alt="TTS banner"/>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" style="font-size:35px;" class="icon" onclick="myFunction()">&#9776;</a>
+            <a href="#" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+           
+        </div>
+    </div>
     </header>
     <main>
         <section class="welcome">
@@ -35,8 +42,11 @@
                 <div class="desktop-welcome">
                     <img src="img/rectangle_22.png" alt="conference"/>
                 </div>
+                <div class="button">
+                    <a href="#">Click Here</a>
+                </div>
         </section>
-        <section class="services">
+        <section id="services">
             <h3>-Web Development-</h3>
             <div class="desktop-webdev">
                 <img src="img/rectangle_9.png" alt="phone"/>
@@ -44,11 +54,11 @@
             <p>We will design + build your website to your specific needs.</p>
             <p>Allow us to create a customized websites to help you grow your small business!
             </p>
-            <div class="btn">
+            <div class="button">
                 <a href="#">Click Here</a>
             </div>
         </section>
-        <section class="about">
+        <section id="about">
             <h3>-About Us-</h3>
             <div class = "mobile-about">
                 <img src="img/rectangle_22.png" alt="conference"/>
@@ -64,7 +74,7 @@
                 transform your brand and elevate your 
                 online presence.</p>
         </section>
-        <section class="contact">
+        <section id="contact">
             <h3>-Contact-</h3>
             <img src="img/rectangle_19.png" alt="computer-photo"/>
             <p class="email"><a href="mailto:triangulartechsolutions@gmail.com">triangulartechsolutions@gmail.com</a></p>
