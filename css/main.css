@@ -212,16 +212,25 @@ footer{
 /*hidden images*/
 @media only screen and (min-width:100px) and (max-width:767px) {
 .desktop-welcome img ,
-.desktop-webdev,
-.desktop-about {
+.desktop-webdev img,
+.desktop-about img {
   display:none;
 }
+.welcome .button {
+  display:none;
+}
+
 }
 @media(min-width:768px) {
   .banner {
     margin:25%;
   }
+  .mobile-welcome img,
+  .mobile-about img {
+    display:none;
+  }
 }
+
 /*===========WELCOME STYLES==========================*/
 .welcome {
   color:#FFFFFF;
@@ -332,13 +341,6 @@ footer{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
-
-/* Desktop */
-@media only screen and (min-width: 1280px) {
-  /* Nav Bar */
- 
-}
 
 
 
