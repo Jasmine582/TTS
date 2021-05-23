@@ -6,7 +6,12 @@
         "focusable",
         "iframes",
         "openbtn",
+        "opentype",
+        "oxanium",
         "textareas",
-        "viewports"
+        "topnav",
+        "viewports",
+        "webdev",
+        "wght"
     ]
 }
