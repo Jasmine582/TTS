@@ -208,7 +208,7 @@ footer{
 }
 /* =END Responsive Navigation Bar= */
 /*hidden images*/
-@media only screen and (min-width:100px) and (max-width:767px) {
+@media only screen and (min-width:100px) and (max-width:768px) {
 .desktop-welcome img ,
 .desktop-webdev img,
 .desktop-about img {
@@ -223,10 +223,7 @@ footer{
   .banner {
     margin:25%;
   }
-  .mobile-welcome img,
-  .mobile-about img {
-    display:none;
-  }
+ 
 }
 
 /*===========WELCOME STYLES==========================*/
@@ -320,10 +317,10 @@ footer{
   margin-left: 6rem;
   margin-bottom: 1rem;;
 }
-/* #contact img {
-  width: 95%;
+/* #contact .rectangle {
+  
   padding: 1rem;
-  border: 23px solid yellow;
+  border: 23px inset yellow;
 } */
 
 
