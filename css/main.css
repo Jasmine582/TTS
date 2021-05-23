@@ -229,7 +229,8 @@ footer{
 /*===========WELCOME STYLES==========================*/
 .welcome,
 #services,
-#contact {
+#contact,
+#about {
   display:flex;
   justify-content:center;
   flex-flow: column wrap;
@@ -325,10 +326,16 @@ footer{
   margin-left: 6rem;
   margin-bottom: 1rem;
 }
-#contact .rectangle {
-  
+.rectangle {
   padding: 1rem;
-  border: 23px inset yellow;
+  /* border: 23px inset yellow; */
+  background-color:yellow;
+  max-width: 93em;
+}
+
+.rectangle img {
+  padding:20em;
+  width: 55%;
 }
 
 
