@@ -86,7 +86,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 /*======Base styles=======================================*/
 @font-face {
   font-family:"oxanium"  ;
@@ -98,6 +97,7 @@ textarea {
   list-style:none;
   font-family: 'oxanium';
 }
+
 img {
   max-width:100%;
 }
@@ -140,7 +140,6 @@ footer{
   display:flex;
   flex-flow:row wrap;
   margin-top: -20%;
-  
 }
 
 .topnav a {
@@ -152,11 +151,9 @@ footer{
   font-size: 1.2rem;
   color: #000000;
   font-family: 'oxanium';
-
 }
 
 .active {
-  background-color:#FFD6B0;
   font-size:1rem;
 }
 
@@ -206,7 +203,6 @@ footer{
    background-color:#FFECBC;
   }
 }
-/* =END Responsive Navigation Bar= */
 /*hidden images*/
 @media only screen and (min-width:100px) and (max-width:768px) {
 .desktop-welcome img ,
@@ -214,33 +210,32 @@ footer{
 .desktop-about img {
   display:none;
 }
+
 .welcome .button {
   display:none;
 }
-
 }
+
 @media(min-width:768px) {
   .banner {
     margin:25%;
   }
- 
 }
 
 /*===========WELCOME STYLES==========================*/
-.welcome {
+.welcome,
+#services,
+#contact,
+#about {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
-.welcome,
-#services,
-#contact,
-#about {
-  display:flex;
-  justify-content:center;
-  flex-flow: column wrap;
-  align-items: center;
+
+.welcome h3 {
+  margin-top:.4em;
+  margin-right: 6.8em;
 }
 .welcome,
 #services h3,
@@ -258,13 +253,22 @@ footer{
   font-size: 1.3rem;
   padding:.51em;
 }
+@media(min-width:414px) {
+  .welcome h3{
+    margin-top:.4em;
+    margin-right: 7.8em;
+  }
+  .welcome p {
+    font-size: 1.3rem;
+    padding:.51em;
+  }
+}
+@media(min-width:768px) {
+  .welcome h3{
+    margin-right: 17.8em;
+  }
+}
 
-/* .mobile-welcome img {
-  width: 90%;
-  margin-left:.91em;
-  margin-top:1em;
-  margin-bottom: 1em;
-} */
 
 /*===========WEB DEV STYLES============================*/
 #services {
@@ -273,10 +277,10 @@ footer{
 #services h3 {
   font-size: 2rem;
   padding-top:1rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-bottom: 1rem;;
 }
-@media(min-width:414px){#services h3,#about h3{margin-left: 2em;}}
+
 
 #services p span, 
 #services p{
@@ -292,7 +296,7 @@ footer{
 #services .button p {
   width:232px;
   background: rgba(207, 207, 207, 0.6);
-  margin-left: 2.3em;
+  margin-left: .3em;
   padding-bottom: 1.4em;
   
 }
@@ -300,13 +304,14 @@ footer{
   color: #000000;
   font-size:1.75em;
   text-decoration: none;
+  text-align: center;
 }
 /*===========ABOUT STYLES============================*/
 
 #about h3 {
   font-size: 2rem;
   padding-top:1rem;
-  margin-left: 6rem;
+  margin-right: 1rem;
   margin-bottom: 1rem;;
 }
 
@@ -325,28 +330,69 @@ footer{
   padding:.21em;
 }
 @media(min-width:414px){#about p{padding:.91em;}}
+
 /*===========CONTACT STYLES============================*/
+
 #contact h3 {
   font-size: 2rem;
-  padding-top:1rem;
-  margin-left: 6rem;
-  margin-bottom: 1rem;
+  margin-top: 1em;
 }
-/* .rectangle {
-  padding: 1rem;
-  border: 23px inset yellow;
-  background-color:yellow;
-  max-width: 93em;
-} */
 
-/* .rectangle img {
-  padding:20em;
+@media(min-width:414px){#contact h3{margin-bottom:2rem;}}
+
+.rectangle img {
+  box-shadow: 15px 16px 7px 5px #79a5aa;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  width:95%;
+}
+@media(min-width:414px){.rectangle img{box-shadow: -35px -25px #79a5aa;}}
+@media(min-width:768px){.rectangle img{box-shadow:none;}}
+.email {
+  margin-bottom: 2em;
+  margin-right: .2em;
+  
+}
+
+.email a {
+  padding:3%;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color:rgb(15, 15, 14);
+  background: #9DC4CF;
+}
+
+#contact p {
+  color:white;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  font-size: 1.6rem;
+}
+
+
+#contact .social-media  {
+  display:flex;
+  justify-content: space-between;
   width: 55%;
-} */
+  margin-top:1rem;
+  margin-bottom: 2rem;
+}
 
-
-
-
+@media(min-width:768px) {
+  #contact .social-media  {
+    display:flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-top:1rem;
+    margin-bottom: 2rem;
+  }
+}
+footer {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:800;
+}
 
 
 /* ==========================================================================
