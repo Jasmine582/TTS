@@ -418,6 +418,58 @@ footer{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+/* ------------------ Tablet Styles - Homepage ---------------- */
+@media only screen and (min-width: 768px) {
+  /* Tablet styles here */ 
+
+ /*===================Header Styles=======================*/
+.logo {
+  display: flex;
+  margin-left:24%;
+  margin-bottom:-36%;
+ }
+.banner {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  }
+
+/* Responsive Navigation Bar */
+.topnav {
+display: flex;
+justify-content: center;
+}
+  
+
+}
+
+/* --------------------- Desktop Styles - Homepage -------------------- */
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop styles here */  
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 -32% 2% ;
+  }
+  .banner {
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 7%;
+    }
+  
+  /* Responsive Navigation Bar */
+  .topnav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  margin-top: -30%;
+ 
+  }
+    
+
+}  
 
 
 
