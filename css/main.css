@@ -227,6 +227,12 @@ footer{
 }
 
 /*===========WELCOME STYLES==========================*/
+.welcome {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
 .welcome,
 #services h3,
  p span,
@@ -437,7 +443,6 @@ footer{
 display: flex;
 justify-content: center;
 }
-  
 
 }
 
