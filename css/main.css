@@ -456,7 +456,7 @@ justify-content: center;
   .banner {
     display:flex;
     justify-content: flex-start;
-    margin-left: 7%;
+    margin-left: 8%;
     }
   
   /* Responsive Navigation Bar */
