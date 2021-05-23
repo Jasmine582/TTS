@@ -332,17 +332,17 @@ footer{
   margin-left: 6rem;
   margin-bottom: 1rem;
 }
-.rectangle {
+/* .rectangle {
   padding: 1rem;
-  /* border: 23px inset yellow; */
+  border: 23px inset yellow;
   background-color:yellow;
   max-width: 93em;
-}
+} */
 
-.rectangle img {
+/* .rectangle img {
   padding:20em;
   width: 55%;
-}
+} */
 
 
 
