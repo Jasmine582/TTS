@@ -583,15 +583,26 @@ justify-content: center;
    }
   /* ----- Welcome ----- */
    .welcome {
+     top: 0;
+     left: 0;
      background-color:#FFECBC;
      margin-bottom: 15%;
-     height: 670px;
+     height: 700px;
      width: 100%;
     }
-   .welcome .para1 {
+   .welcome .desktop-welcome img {
       position: relative;
-      right: 250px;
-      max-width: 637px;
+      top: 0;
+      left: 240px;
+      border-radius: 5%;
+      width: 600px;
+      height: 400px;
+    }
+    .welcome .para1 {
+      position: absolute;
+      bottom: 250px;
+      left: 80px;
+      width: 600px;
       height: 400px;
       background-color: #B3A072;
       border-radius: 5%;
@@ -608,42 +619,46 @@ justify-content: center;
   .welcome .button {
     margin: 0 30% 0 0;
   }  
-  .desktop-welcome img {
-    position: absolute;
-    top: 15%;
-    right: 5%;
-    border-radius: 5%;
-    max-width: 699px;
-    height: 400px;
-  }
+  
   /*--- Services  ----*/
   #services {
     position: relative;
-    max-width: 900px;
+    width: 100%;
     height: 610px;
-    margin: 0 25% 15% 0;
+    margin-bottom: 20%;
+  }
+  #services h3 {
+    font-size: 3rem;
+    margin-right: 5%;
+  }
+  .services-para {
+    width: 50%;
+    margin-right: 8%;
   }
   .desktop-webdev img {
     position: absolute;
+    top: -15%;
+    left: 62%;
     width: 532px;
     height: 835px;
-    margin: -22% 0 0 31%;
   }
   /*--- About  ----*/
    #about {
     position: relative;
     left: 25rem;
-    max-width: 900px;
+    width: 100%;
     height: 600px;
+    }
+    #about h3 {
+      font-size: 3rem;
     }
     
     .desktop-about img {
       position: relative;
-      right: 35rem;
+      right: 38rem;
       width: 532px;
       height: 835px;
-      /*margin:-35% 30% 0 0;
-      border-radius: 0 15% 15% 0;*/
+      margin-top: 25%;
     }
  /*--- Contact ----*/
  #contact {
@@ -653,7 +668,8 @@ justify-content: center;
    margin-top: 20%;
  }
  #contact h3 {
-   margin: 2% 50% 0 0;
+   font-size: 3rem;
+   margin: 3% 50% 0 0;
  }
  #contact .rectangle img {
    max-width: 582px;
@@ -662,14 +678,17 @@ justify-content: center;
    border-radius: 2.5%;
  }
  #contact .email {
-   font-size: 2rem;
    color: #000000;
-   margin: -20% 50% 0 0;
-   border: 1px solid #9DC4CF;
+   margin: -18% 50% 0 0;
    background-color: #9DC4CF;
-   max-width: 785px;
-   height: 93px;
+   width: 40%;
+   height: 100px;
  }
+ .email a {
+  font-size: 2rem;
+
+ }
+
 }  
 
 
