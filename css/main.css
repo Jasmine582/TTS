@@ -583,22 +583,18 @@ justify-content: center;
    }
   /* ----- Welcome ----- */
    .welcome {
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: center;
-     align-items: center;
      background-color:#FFECBC;
      margin-bottom: 15%;
      height: 670px;
      width: 100%;
     }
    .welcome .para1 {
-     position: relative;
-    max-width: 637px;
-    height: 400px;
-    background-color: #B3A072;
-    margin: 5% 25% 0 0;
-    border-radius: 5%;
+      position: relative;
+      right: 250px;
+      max-width: 637px;
+      height: 400px;
+      background-color: #B3A072;
+      border-radius: 5%;
   }
   .welcome h3 {
     font-size: 3rem;
@@ -614,11 +610,11 @@ justify-content: center;
   }  
   .desktop-welcome img {
     position: absolute;
+    top: 15%;
+    right: 5%;
     border-radius: 5%;
     max-width: 699px;
     height: 400px;
-    margin-top: -20%;
-    margin-left: -32%;
   }
   /*--- Services  ----*/
   #services {
@@ -629,20 +625,25 @@ justify-content: center;
   }
   .desktop-webdev img {
     position: absolute;
-    margin: -38% 0 0 31%;
+    width: 532px;
+    height: 835px;
+    margin: -22% 0 0 31%;
   }
- 
-  #about {
+  /*--- About  ----*/
+   #about {
     position: relative;
+    left: 25rem;
     max-width: 900px;
     height: 600px;
-    margin: 15% 15% 0 33%;
     }
+    
     .desktop-about img {
       position: relative;
-      margin-right: 30%;
-      margin-top: 20%;
-
+      right: 35rem;
+      width: 532px;
+      height: 835px;
+      /*margin:-35% 30% 0 0;
+      border-radius: 0 15% 15% 0;*/
     }
  /*--- Contact ----*/
  #contact {
