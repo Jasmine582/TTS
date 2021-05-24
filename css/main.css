@@ -501,6 +501,9 @@ footer {
 display: flex;
 justify-content: center;
 }
+.topnav a {
+  font-size: 1.5rem;
+}
 /* ----- Welcome ----- */
 .welcome {
   display: flex;
@@ -524,19 +527,26 @@ justify-content: center;
 }
 /*--- Services  ----*/
 #services {
-  height: 800px;
+  height: 700px;
 }
 #services h3 {
   font-size: 2.5rem;
 }
-#services .button {
-  margin-top: 30%;
+#services p {
+  font-size: 2rem;
 }
+#services .button {
+  margin-top: 5%;
+}
+/*--- ABout  ----*/
 #about {
-  height: 800px;
+  height: 1000px;
 }
 #about h3 {
   font-size: 2.5rem;
+}
+#about p{
+  font-size: 1.75rem;
 }
 .mobile-about img{
   width: 600px;
@@ -547,6 +557,12 @@ justify-content: center;
 .rectangle img {
   width: 600px;
   height: 400px;
+}
+#contact h3 {
+  font-size: 2.5rem;
+}
+#contact h5 {
+  font-size: 1.5rem;
 }
 
 }
