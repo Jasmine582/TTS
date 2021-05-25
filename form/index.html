@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" id="form">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangular Tech Solutions</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="../img/logo.png" alt="TTS_logo"/>
+            </div>
+            <div class="banner">
+                <img src="../img/triangular_tech_solutions.png" alt="TTS banner"/>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="javascript:void(0);" style="font-size:35px;" class="icon" onclick="myFunction()">&#9776;</a>
+                <a href="../index.html" class="active">Home</a>
+                <!-- <a href="../#services">Services</a> -->
+                <a href="../#about">About</a>
+                <a href="../#contact">Contact</a>
+               
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <div class="form">
+            <div class="hero-img">
+            <img />
+            </div>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas earum iusto recusandae esse commodi veritatis ad voluptatibus ullam? Libero voluptate quasi earum ipsum cupiditate illo? Placeat nihil voluptates inventore assumenda.</span></p>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"   action="https://formspree.io/f/mrgrpnjb" method="post">
+                <fieldset id="fs-frm-inputs">
+                <!-- <label for="full-name">Full Name</label> -->
+                <input type="text" name="name" id="full-name" placeholder="Name" required="">
+                <!-- <label for="email-address">Email Address</label> -->
+                <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
+                <!-- <label for="message">Message</label> -->
+                <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p> &copy; <script>document.write(new Date().getFullYear())</script> Triangular Tech Solutions</p>
+    </footer>
+       <script src="../js/main.js"></script>
+</body>
+</html>

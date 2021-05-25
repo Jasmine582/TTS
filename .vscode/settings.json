@@ -8,10 +8,12 @@
         "openbtn",
         "opentype",
         "oxanium",
+        "replyto",
         "textareas",
         "topnav",
         "viewports",
         "webdev",
-        "wght"
+        "wght",
+        "workbutton"
     ]
 }

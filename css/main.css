@@ -101,6 +101,9 @@ textarea {
 img {
   max-width:100%;
 }
+figure{
+  margin:0;
+}
 
 header {
   background-color:#FFECBC;
@@ -403,7 +406,88 @@ footer {
   align-items: center;
   justify-content: center;
   font-weight:800;
+  font-size:.6em;
+  font-style:italic;
 }
+/*=======Contact Form===================*/
+#form {
+  background-color: #D9967E;
+  height:auto;
+}
+.form {
+  background-color: #D9967E;
+ 
+}
+.form .hero-img {
+  background: url("../img/rectangle_28.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-top: 13%;
+}
+@media(min-width:768px){
+  .form .hero-img{
+    min-height:600px;
+  }
+}
+/* .form img {
+  border: none;
+  border-radius: 9%;
+  opacity: 0.5;
+  width:15%;
+} */
+fieldset {
+  padding-top: 23%;
+  height:23%;
+}
+#email-address,
+#full-name,
+#message {
+  display:flex;
+  flex-flow:column;
+  border: none;
+  width: 90%;
+  padding:1em;
+  background-color: #B3A072;
+  font-family: "oxanium";
+  margin:.41rem 0;  
+  font-size: 1.5rem;
+}
+
+input[type=submit] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 10px;
+  background-color: #000000;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* .hero-area {
+  background: url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+} */
+
+
+/* input[type=text] {
+  box-sizing: border-box;
+  width: 80%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+} */
 
 
 /* ==========================================================================
