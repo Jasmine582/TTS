@@ -636,7 +636,6 @@ justify-content: center;
 #services .button {
   margin-bottom: -90px;
 }
-
 #services .button p {
   padding: 30px;
 }
@@ -672,7 +671,6 @@ justify-content: center;
 .workbutton a {
   font-size: 2rem;
 }
-
 /*--- Contact  ----*/
 .rectangle img {
   width: 600px;
@@ -708,8 +706,7 @@ justify-content: center;
     display:flex;
     justify-content: flex-start;
     margin-left: 8%;
-    }
-  
+    }  
   /* Responsive Navigation Bar */
   .topnav {
   display: flex;
@@ -743,30 +740,28 @@ justify-content: center;
       background-color: #B3A072;
       border-radius: 5%;
       z-index: 1;
-  }
-  .welcome h3 {
+  } 
+    .welcome h3 {
     font-size: 3rem;
     margin: 5% 0 0 3%;
   }
   .welcome p {
     font-size: 2.25rem;
     margin: 2% 0 0 1%;
-    width: 95%;
   }
   .welcome .button {
     position: absolute;
     z-index: 1;
     bottom: 230px;
     left: 300px;
-    }  
-    .welcome .button a {
+  }  
+  .welcome .button a {
       font-size: 1.5rem;
       color: #000000;
       text-decoration: none;
       background-color: #317178;
       padding: 20px 30px;
     }
-  
   /*--- Services  ----*/
   #services {
     position: relative;
@@ -810,8 +805,7 @@ justify-content: center;
     #about p {
       width: 800px;
       height: 600px;
-    }
-    
+    }    
     .desktop-about img {
       position: relative;
       right: 38rem;
@@ -819,38 +813,51 @@ justify-content: center;
       height: 835px;
       margin-top: 25%;
     }
+    .about-para p {
+      position: absolute;
+      z-index: 1;
+      top: 150px;
+      right: 40px;
+    }
+    .workbutton {
+      position: absolute;
+      z-index: 1;
+      top: 150px;
+      right: 30px;
+    }
     
+    .workbutton a {
+      font-size: 1.5rem;
+    }
  /*--- Contact ----*/
- #contact {
-   display: flex;
-   flex-flow: column wrap;
-   width: 100%;
-   margin-top: 20%;
- }
- #contact h3 {
-   font-size: 3rem;
-   margin: 3% 50% 0 0;
- }
- #contact .rectangle img {
-   max-width: 582px;
-   height: 320px;
-   margin-left: 55%;
-   border-radius: 2.5%;
- }
- #contact .email {
-   color: #000000;
-   margin: -18% 50% 0 0;
-   background-color: #9DC4CF;
-   width: 40%;
-   height: 100px;
- }
- .email a {
-  font-size: 2rem;
-
- }
+  #contact {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin-top: 20%;
+  }
+  #contact h3 {
+    font-size: 3rem;
+    margin: 3% 50% 0 0;
+  }
+  #contact .rectangle img {
+    max-width: 582px;
+    height: 320px;
+    margin-left: 55%;
+    border-radius: 2.5%;
+  }
+  #contact .email {
+    color: #000000;
+    margin: -18% 50% 0 0;
+    background-color: #9DC4CF;
+    width: 40%;
+    height: 100px;
+  }
+  .email a {
+    font-size: 2rem;
+  }
 
 }  
-
 
 
 @media print,
