@@ -255,6 +255,7 @@ footer{
 .welcome p {
   font-size: 1.3rem;
   padding:.51em;
+  color: #000;
 }
 @media(min-width:414px) {
   .welcome h3{
@@ -273,7 +274,7 @@ footer{
 }
 
 
-/*===========Services============================*/
+/*===========Services/Process============================*/
 #services {
   padding-bottom:2.3rem;
 }
@@ -331,19 +332,7 @@ footer{
   font-size: 1.2em;
   margin-top: .73em;
   padding:.21em;
-}
-.workbutton p {
-  width:232px;
-  background: rgba(207, 207, 207, 0.6);
-  margin-left: 3.5em;
-  margin-bottom: 5%;
-  padding-bottom: 6.4em; 
-}
-.workbutton a {
-  color: #000000;
-  font-size:1.75em;
-  text-decoration: none;
-  text-align: center;
+  color: #000;
 }
 @media(min-width:414px){#about p{padding:.91em;}}
 
