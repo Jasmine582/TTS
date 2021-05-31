@@ -289,7 +289,6 @@ footer{
 #services p span, 
 #services p{
   display:flex;
-  text-align: center;
   justify-content: center;
   font-size: 1.2em;
 }
@@ -327,7 +326,6 @@ footer{
 #about p span,
 #about p {
   display:flex;
-  text-align: center;
   justify-content: center;
   font-size: 1.2em;
   margin-top: .73em;
