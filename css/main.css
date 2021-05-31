@@ -347,50 +347,6 @@ footer{
 }
 @media(min-width:414px){#about p{padding:.91em;}}
 
-/*===========CONTACT STYLES============================*/
-
-#contact h3 {
-  font-size: 2rem;
-  margin-top: 1em;
-}
-
-@media(min-width:414px){#contact h3{margin-bottom:2rem;}}
-
-.rectangle img {
-  box-shadow: 15px 16px 7px 5px #79a5aa;
-  margin-top: 2em;
-  margin-bottom: 4em;
-  width:95%;
-}
-@media(min-width:414px){.rectangle img{box-shadow: -35px -25px #79a5aa;}}
-@media(min-width:1200px){.rectangle img{box-shadow:none;}}
-.email {
-  margin-bottom: 2em;
-  margin-right: .2em;
- }
-.email a {
-  padding:3%;
-  font-size: 1.125rem;
-  text-decoration: none;
-  color:rgb(15, 15, 14);
-  background: #9DC4CF;
-}
-
-#contact h5 {
-  color:white;
-  margin-top: 3%;
-  margin-bottom: 4%;
-  font-size: 1.6rem;
-}
-
-
-#contact .social-media  {
-  display:flex;
-  justify-content: space-between;
-  width: 55%;
-  margin-top:1rem;
-  margin-bottom: 2rem;
-}
 
 @media(min-width:768px) {
   #contact .social-media  {
@@ -687,7 +643,7 @@ justify-content: center;
 
 /* --------------------- Desktop Styles - Homepage -------------------- */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   /* Desktop styles here */  
   /* hidden images */
   .mobile-welcome img,
@@ -716,12 +672,16 @@ justify-content: center;
    }
   /* ----- Welcome ----- */
    .welcome {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+     align-items: center;
      top: 0;
      left: 0;
      background-color:#FFECBC;
      margin-bottom: 15%;
      height: 700px;
-     width: 100%;
+     max-width:100%;
     }
    .welcome .desktop-welcome img {
       position: relative;
