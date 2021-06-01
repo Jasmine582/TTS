@@ -652,7 +652,7 @@ justify-content: center;
   .desktop-webdev img {
     position: absolute;
     top: -15%;
-    left: 62%;
+    left: 75%;
     width: 532px;
     height: 835px;
   }
@@ -680,7 +680,7 @@ justify-content: center;
     }    
     .desktop-about img {
       position: relative;
-      right: 38rem;
+      right: 400px;
       width: 532px;
       height: 835px;
       margin-top: 25%;
