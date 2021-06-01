@@ -378,13 +378,6 @@ footer {
   flex-flow: row wrap;
   width: 100%;
 }
-/* inline calendar */
-/* .calendly-inline-widget {  
-  display:flex;
-  margin-top: 3em;
-  width:100%;
-  height:360px;
-} */
 .calendly {
   width: 100%;
   padding: 20px 0;
@@ -396,7 +389,6 @@ footer {
   text-align: center;
   text-transform: uppercase;
 }
-
 .calendly a {
   text-decoration: none;
   color:#D9967E;
@@ -411,17 +403,20 @@ footer {
 }
 @media(min-width:768px) {
   .form {
+<<<<<<< HEAD
     
+=======
+    max-width:640px; 
+>>>>>>> 4f3fc530150d1ed1d947ce6183e4d74172ac31e5
     padding-bottom:15%;
-  }
-
+}
+}
 .hero-img {
   min-height: 700px;
 }
-}
 @media(min-width:900px){
   .form{
-    padding:25%;
+  padding:25%;
   }
 }
 @media(min-width:1024px){
