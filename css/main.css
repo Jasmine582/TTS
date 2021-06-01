@@ -358,7 +358,13 @@ footer {
   margin-top:49%;
   margin-left:4%;
 }
-
+.form-wrapper {
+  margin-right: 17%;
+}
+.form-wrapper .logo img {
+  margin-left: -12px;
+  
+}
 .hero-img {
   background: url('../img/form_photo.png');
   background-size: cover;
@@ -519,7 +525,7 @@ footer {
    ========================================================================== */
 /* ------------------ Tablet Styles - Homepage ---------------- */
 
-@media only screen and (min-width: 620px) {
+@media only screen and (min-width: 768px) {
   /* Tablet styles here */ 
   
  /*===================Header Styles=======================*/
@@ -598,13 +604,25 @@ justify-content: center;
 /*--- ABout  ----*/
 #about h3 {
   font-size: 2.5rem;
+  margin-bottom: -5%;
+  font-weight: 900;
 }
 #about p {
+  display: flex;
+  justify-content: center;
   font-size: 1.5rem;
+  width: 75%;
+  margin-left: 12%; 
+ margin-bottom: 5%; 
 }
+#about img {
+  display: flex;
+  justify-content: center;
+  width: 35%;
 
-.about-para span {
-  margin-bottom: -20px;
+}
+.about-para, p span {
+  font-size: 2rem;
 }
 #about .workbutton {
   display: flex;
@@ -616,17 +634,7 @@ justify-content: center;
 .workbutton a {
   font-size: 2rem;
 }
-/*--- Contact  ----*/
-.rectangle img {
-  width: 600px;
-  height: 400px;
-}
-#contact h3 {
-  font-size: 2.5rem;
-}
-#contact h5 {
-  font-size: 1.5rem;
-}
+
 
 }
 
@@ -779,33 +787,6 @@ justify-content: center;
     .workbutton a {
       font-size: 1.5rem;
     }
- /*--- Contact ----*/
-  #contact {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-    margin-top: 20%;
-  }
-  #contact h3 {
-    font-size: 3rem;
-    margin: 3% 50% 0 0;
-  }
-  #contact .rectangle img {
-    max-width: 582px;
-    height: 320px;
-    margin-left: 55%;
-    border-radius: 2.5%;
-  }
-  #contact .email {
-    color: #000000;
-    margin: -18% 50% 0 0;
-    background-color: #9DC4CF;
-    width: 40%;
-    height: 100px;
-  }
-  .email a {
-    font-size: 2rem;
-  }
 
 }  
 
