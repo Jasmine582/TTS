@@ -421,14 +421,13 @@ footer {
     padding:11rem;
   }
 }
-@media(min-width:1300px){
+@media(min-width:1300px) {
   header{
     padding-bottom: 2%;
   }
   .form{
     padding:25%;
   }
-
 }
 
 /* ==========================================================================
