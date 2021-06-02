@@ -279,13 +279,10 @@ header .wrapper {
   padding-bottom:2.3rem;
 }
 #services h3 {
+  text-align: center;
   font-size: 2rem;
   padding-top:1rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;;
 }
-
-
 #services p span, 
 #services p{
   display:flex;
@@ -522,11 +519,6 @@ footer {
   /* Tablet styles here */ 
   
  /*===================Header Styles=======================*/
- .desktop-webdev
- {
-   display: none;
- }
-
  header .wrapper {
   margin-bottom: -10%;
  }
@@ -666,38 +658,34 @@ justify-content: center;
      flex-flow: row nowrap;
      justify-content: center;
      align-items: center;
-     top: 0;
-     left: 0;
      background-color:#FFECBC;
-     margin-bottom: 15%;
-     height: 700px;
-     max-width:100%;
     }
    .welcome .desktop-welcome img {
       position: relative;
       top: 0;
-      left: 265px;
+      left: 245px;
       border-radius: 5%;
-      width: 600px;
-      height: 450px;
+      width: 650px;
+      height: 500px;
     }
     .welcome .para1 {
       position: absolute;
-      bottom: 200px;
-      left: 70px;
-      width: 600px;
-      height: 450px;
+      bottom: -10px;
+      left: 40px;
+      width: 580px;
+      height: 400px;
       background-color: #B3A072;
       border-radius: 5%;
       z-index: 1;
+      padding-right: 10px;
   } 
     .welcome h3 {
     font-size: 3rem;
-    margin: 5% 0 0 3%;
+    margin: 5% 0 0 2%;
   }
   .welcome p {
     font-size: 2.25rem;
-    margin: 2% 0 0 1%;
+    width: 95%;
   }
   .welcome .button {
     position: absolute;
@@ -712,74 +700,58 @@ justify-content: center;
       background-color: #317178;
       padding: 20px 30px;
     }
-  /*--- Services  ----*/
+  /*--- Services/Process  ----*/
   #services {
-    position: relative;
-    width: 100%;
-    height: 610px;
-    margin-bottom: 20%;
+    padding: 5%;
   }
-  #services h3 {
-    font-size: 3rem;
-    margin-right: 38%;
-  }
-  .services-para {
-    width: 602px;
-    margin-right: 38%;
-  }
-  .desktop-webdev img {
-    position: absolute;
-    top: -15%;
-    left: 75%;
-    width: 532px;
-    height: 835px;
-  }
-  #services .button {
-    position: absolute;
-    z-index: 1;
-    bottom: 80px;
-    left: 250px;
-  }
-  #services .button a {
-    font-size: 1.5rem;
-  }
+.services-para p {
+  position: relative;
+}
+#services h3 {
+  padding-right: 30%;
+  font-size: 3rem;
+  margin-top: -5%;
+}
+#services p {
+  padding-left: 20%;
+  margin-left: %;
+  width: 45%;
+}
+.button {
+  padding-right: 2.5%;
+  margin-top: 2.5%;
+}
+.desktop-webdev img {
+  position: absolute;
+  z-index: 1;
+  margin:-8% 0 0 20%;
+  height: 600px;
+}
   /*--- About  ----*/
-   #about {
-    position: relative;
-    width: 100%;
-    height: 610px;
-    }
-    #about h3 {
-      font-size: 3rem;
-    }
-    #about p {
-      width: 800px;
-      height: 600px;
-    }    
-    .desktop-about img {
-      position: relative;
-      right: 400px;
-      width: 532px;
-      height: 835px;
-      margin-top: 25%;
-    }
-    .about-para p {
-      position: absolute;
-      z-index: 1;
-      top: 150px;
-      right: 40px;
-    }
-    .workbutton {
-      position: absolute;
-      z-index: 1;
-      top: 150px;
-      right: 30px;
-    }
-    
-    .workbutton a {
-      font-size: 1.5rem;
-    }
-
+  #about h3 {
+    font-size: 3rem;
+    margin: 40px 0 10px 0;
+  }
+  .about-para p {
+    font-size: 3rem;
+  }
+  .grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 5px;
+   }
+   .jacque, .tasha, .jasmine {
+     box-shadow: 20px 20px 20px 10px #317178;
+   }
+   .jacque {
+     margin-left: 20px;
+   }
+   .jasmin {
+     margin-right: 20px;
+   }
+   .grid img {
+     padding-top: 10%;
+   }
 }  
 
 
