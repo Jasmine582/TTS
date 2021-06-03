@@ -511,6 +511,7 @@ footer {
  /*===============Header Styles================*/
  header .wrapper {
   margin-bottom: -10%;
+  width: 100%;
  }
  .logo {
   display: flex;
@@ -620,7 +621,8 @@ justify-content: center;
     display:none;
   }
   html {
-    background-color: #faf8f8;
+    background-color: #f8f8f8;
+    width: 100%;
   } 
   .logo {
     display: flex;
