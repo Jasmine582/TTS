@@ -369,10 +369,16 @@ footer {
   border: none;
   text-align: center;
   text-transform: uppercase;
+  color: inherit;
 }
 .calendly a {
   text-decoration: none;
   color:#D9967E;
+}
+@media(min-width:768px){
+  .calendly {
+    color:#4d5055;
+  }
 }
 .calendly:hover{
   background-color:#FFECBC;
