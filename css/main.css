@@ -232,7 +232,7 @@ header .wrapper {
 }
 .welcome h3 {
   margin-top:.4em;
-  margin-right: 6.8em;
+  margin-left: .5em; 
 }
 .welcome,
 #services h3,
@@ -241,15 +241,15 @@ header .wrapper {
  #contact h3 {
   color:#FFFFFF;
 }
-.welcome h3,
-#services h3 {
-  font-size: 2rem;
+.welcome h3 {
+  font-size: 1.75rem;
   margin-bottom: 1rem;;
 }
 .welcome p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding:.51em;
   color: #000;
+  width: 95%;
 }
 
 @media(min-width:414px) {
@@ -262,37 +262,64 @@ header .wrapper {
     padding:.51em;
   }
 }
-
-/*===========Services/Process============================*/
-#services {
-  padding-bottom:2.3rem;
+/*==========  Mission =================*/
+.mission {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
-#services h3 {
+.mission h3 {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+.mission p {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/*=========== /Process =======================*/
+#process {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background: #D9967E;
+}
+#process h3 {
   text-align: center;
   font-size: 2rem;
   padding-top:1rem;
 }
-#services p span, 
-#services p{
-  display:flex;
+.process-info h4 {
+  display: flex;
   justify-content: center;
-  font-size: 1.2em;
+  font-size: 1.25rem;
+  margin-top: 10px;
 }
-#services p {
-  padding:1em;
+.process-info p {
+  display: flex;
+  max-width: 90%; 
+  margin-left: 10% ;
+
 }
-#services .button p {
-  width:232px;
+#process .button {
+  display: flex;
+  justify-content: center;
   background: rgba(207, 207, 207, 0.6);
-  margin-left: .3em;
-  padding-bottom: 1.4em;
+  margin: 10%;
 }
-#services .button a {
+#process.button a {
   color: #000000;
   font-size:1.75em;
   text-decoration: none;
   text-align: center;
-}
+} */
 /*===========ABOUT STYLES============================*/
 #about h3 {
   font-size: 2rem;
@@ -548,40 +575,36 @@ justify-content: center;
   width: 100%;
 }
 .welcome h3 {
-  font-size: 2.5rem;
-}
-.welcome p {
   font-size: 2rem;
-  width: 100%;
-  padding-left: 5%;
 }
+ .welcome p {
+  font-size: 1.25rem;
+}  
 .mobile-welcome img {
   width: 600px;
   height: 450px;
+  margin-top: 5%;
 }
-/*--- Services/Process  ----*/
-#services {
+/*--- Process  ----*/
+#process {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   height: 500px;
 }
-#services h3 {
+#process h3 {
   font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }
-.services-para p {
+#process .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.process-info p {
   display: flex;
-  font-size: 2rem;
-}
-#services .button {
-  margin-bottom: -10px;
-}
-#services .button p {
-  padding: 20px;
-}
-#services .button a {
-  font-size: 2rem;
+  flex-flow: column wrap;
 }
 /*--- ABout  ----*/
 #about h3 {
@@ -619,11 +642,10 @@ justify-content: center;
 }
 
 /* --------------- Desktop Styles - Homepage ------------- */
-
 @media only screen and (min-width: 1024px) {
-  /* Desktop styles here */  
+
   /* hidden images */
-  .mobile-welcome img {
+  .mobile-welcome img, .desktop-webdev img {
     display:none;
   }
   html {
@@ -644,7 +666,7 @@ justify-content: center;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
-  margin-top: -25%;
+  margin-top: -26%;
    }
   /* ----- Welcome ----- */
    .welcome {
@@ -656,28 +678,29 @@ justify-content: center;
     }
    .welcome .desktop-welcome img {
       position: relative;
-      top: 0;
-      left: 245px;
+      /* top: 0; */
+      left: 30%;
       border-radius: 5%;
-      width: 650px;
-      height: 500px;
+      width: 600px;
+      height: 600px;
+      margin-top: -15%;
     }
     .welcome .para1 {
       position: absolute;
-      left: 20%;
-      width: 600px;
-      height: 400px;
+      left: 15%;
+      width: 650px;
+      height: 500px;
       background-color: #B3A072;
       border-radius: 5%;
       z-index: 1;
-      padding-right: 10px;
+      margin-top: -4%;
     } 
     .welcome h3 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin: 5% 0 0 2%;
     }
     .welcome p {
-      font-size: 2.25rem;
+      font-size: 1.75rem;
       width: 95%;
     }
     .welcome .button {
@@ -693,32 +716,36 @@ justify-content: center;
       background-color: #317178;
       padding: 20px 30px;
     }
-  /*----- Services/Process  ------*/
-  #services {
-    padding: 5%;
+     /*----- Mission ------*/
+     .mission {
+       height: 500px;
+     }
+
+
+  /*----- Process  ------*/
+  #process {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
   }
-  .services-para p {
-    position: relative;
-  }
-  #services h3 {
-    padding-right: 30%;
+  #process h3 {
     font-size: 3rem;
-    margin-top: -5%;
-  }
-  #services p {
-  padding-left: 16%;
-  width: 45%;
+    margin-top: 5%;
+
   }
   .button {
     padding-right: 2.5%;
     margin-top: 2.5%;
   }
-  .desktop-webdev img {
+  /* .desktop-webdev img {
     position: absolute;
     z-index: 1;
     margin:-7.5% 0 0 30%;
-    height: 650px;
-  }
+    height: 550px;
+  } */
+  
   /*--- About  ----*/
   #about h3 {
     font-size: 3rem;
