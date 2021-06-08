@@ -274,13 +274,16 @@ header .wrapper {
   flex-flow: row wrap;
   font-size: 1.75rem;
   margin-bottom: 10px;
+  padding:.71em;
 }
+
 .mission p {
   display: flex;
   justify-content: center;
   width: 90%;
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding:.71em;
 }
 
 /*=========== /Process =======================*/
@@ -290,6 +293,7 @@ header .wrapper {
   justify-content: center;
   align-items: center;
   background: #D9967E;
+  padding-bottom: 3rem;
 }
 #process h3 {
   text-align: center;
@@ -308,18 +312,21 @@ header .wrapper {
   margin-left: 10% ;
 
 }
-#process .button {
+.calendar-btn {/*#process .button*/
   display: flex;
   justify-content: center;
-  background: rgba(207, 207, 207, 0.6);
+  background-color: rgba(207, 207, 207, 0.6);
   margin: 10%;
+  width: 50%;
+ margin-left: 6.3em;
+ 
 }
-#process.button a {
+.calendar-btn a { /*#process.button a*/
   color: #000000;
-  font-size:1.75em;
+  font-size:1.125em;
   text-decoration: none;
   text-align: center;
-} */
+} 
 /*===========ABOUT STYLES============================*/
 #about h3 {
   font-size: 2rem;
@@ -336,6 +343,7 @@ header .wrapper {
   color:white;
   margin-left:1.5em;
 }
+
 #about p span,
 .about-para p
  {
@@ -347,7 +355,7 @@ header .wrapper {
   color: #000;
 }
 
-@media(min-width:414px){#about p{padding:.91em;}}
+
 
 footer {
   display:flex;
@@ -357,7 +365,20 @@ footer {
   font-size:.6em;
   font-style:italic;
 }
-/*=======Consult Form===================*/
+@media(min-width:414px){#about p{padding:.91em;}}
+
+@media(min-width:768px) {
+  .mission {
+    padding:3rem;
+  }
+ 
+}
+@media(min-width:1024px){
+  .calendar-btn{
+    width: 90%;
+  }
+}
+/*========404 PAGE===================*/
 .form-header {
   padding-bottom:.1px;
 }
@@ -595,12 +616,13 @@ justify-content: center;
 }
 #process h3 {
   font-size: 2.5rem;
+  margin-top: -1.35%;
   margin-bottom: 1.5rem;
 }
 #process .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px;
+  gap: 15px;
 }
 .process-info p {
   display: flex;
@@ -718,10 +740,9 @@ justify-content: center;
     }
      /*----- Mission ------*/
      .mission {
-       height: 500px;
+       height: 500px;  
      }
-
-
+    
   /*----- Process  ------*/
   #process {
     display: flex;
@@ -765,7 +786,7 @@ justify-content: center;
    .jacque {
      margin-left: 20px;
    }
-   .jasmin {
+   .jasmine {
      margin-right: 20px;
    }
    .grid img {

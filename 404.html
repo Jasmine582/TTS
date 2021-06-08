@@ -1,62 +1,48 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="en" id="form">
 <head>
-  <meta charset="utf-8">
-  <title>Page Not Found</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    * {
-      line-height: 1.2;
-      margin: 0;
-    }
-
-    html {
-      color: #888;
-      display: table;
-      font-family: sans-serif;
-      height: 100%;
-      text-align: center;
-      width: 100%;
-    }
-
-    body {
-      display: table-cell;
-      vertical-align: middle;
-      margin: 2em auto;
-    }
-
-    h1 {
-      color: #555;
-      font-size: 2em;
-      font-weight: 400;
-    }
-
-    p {
-      margin: 0 auto;
-      width: 280px;
-    }
-
-    @media only screen and (max-width: 280px) {
-
-      body,
-      p {
-        width: 95%;
-      }
-
-      h1 {
-        font-size: 1.5em;
-        margin: 0 0 0.3em;
-      }
-
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangular Tech Solutions</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
-
 <body>
-  <h1>Page Not Found</h1>
-  <p>Sorry, but the page you were trying to view does not exist.</p>
-</body>
+    <header class="form-header">
+        <div class="form-wrapper">
+            <div class="logo">
+                <a href="../">
+                    <img src="../img/logo.png" alt="TTS_logo"/>
+                </a>
+            </div>
+            <div class="banner">
+                <a href="../">
+                    <img src="../img/triangular_tech_solutions.png" alt="TTS banner"/>
+                </a>
+            </div>
+        </div>
+        </header>
+    <main>
+    <section class="form">
+        <div class="hero-img"><h1>Book your Consultation</h1></div>
 
+<!-- Calendly link widget begin -->
+<div class="calendly">
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js"  async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/triangulartechsolutions/consultation'});return false;">Book Here</a>
+</div>
+<!-- Calendly link widget end -->
+
+</section>
+</main>
+<footer>
+    <p> &copy; <script>document.write(new Date().getFullYear())</script> Triangular Tech Solutions</p>
+</footer>
+   <script src="../js/main.js"></script>
+    
+</body>
 </html>
-<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->
+
+    
