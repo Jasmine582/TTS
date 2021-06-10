@@ -133,11 +133,11 @@ header .wrapper {
 .logo {
   margin-left:24%;
 }
-.banner {
+/* .banner {
   display:flex;
   margin-left:40%;
   margin-top:-18%;
-} 
+}  */
 /* Responsive Navigation Bar */
  .topnav {
   overflow: hidden;
@@ -266,6 +266,7 @@ header .wrapper {
 /*==========  Mission =================*/
 #mission {
   background: #317178 url("/img/mission_triangles.png") no-repeat fixed center;
+  background-size: 100%;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -559,25 +560,28 @@ footer {
   /* Tablet styles here */ 
   
  /*===============Header Styles================*/
- header .wrapper {
+ /* header .wrapper {
   margin-bottom: -10%;
   width: 100%;
- }
- .logo {
+ } */
+ .logo{
   display: flex;
-  margin-left:24%;
-  margin-bottom:-35%;
+  margin-left:2%;/*org. margin-left:24%*/
+ 
+  /* margin-bottom:-35%; */
  }
-.banner {
+/* .banner {
   display:flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  }
+  } */
 /* Responsive Navigation Bar */
 .topnav {
 display: flex;
 justify-content: center;
+margin-top: 3rem;/*added*/
+margin-bottom: -1.5%;/*added*/
 }
 .topnav a {
   font-size: 1.5rem;
@@ -684,19 +688,24 @@ justify-content: center;
   } 
   .logo {
     display: flex;
-    margin: 0 0 -28% 2.5%;
+    /* margin: 0 0 -28% 2.5%; */
   }
-  .banner {
+  .logo img{
+    margin-bottom: 7%;
+    width:40%;
+    border:none;
+  }
+  /* .banner {
     display:flex;
     justify-content: flex-start;
     margin-left: 5.75%;
-    }  
+    }   */
   /* Responsive Navigation Bar */
   .topnav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
-  margin-top: -26%;
+  margin-top: -10.2%;/*org -26%*/
    }
   /* ----- Welcome ----- */
    .welcome {
