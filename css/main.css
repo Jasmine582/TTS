@@ -265,11 +265,13 @@ header .wrapper {
 }
 /*==========  Mission =================*/
 #mission {
+  background: #317178 url("/img/mission_triangles.png") no-repeat fixed center;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
+
 #mission h3 {
   text-align: center;
   font-size: 2rem;
@@ -281,6 +283,7 @@ header .wrapper {
   width: 90%;
   margin-left: 10%;
   margin-bottom: 10px;
+  color:#FFECBC;
 }
 
 /*=========== /Process =======================*/
